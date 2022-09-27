@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "project": "./babel.config.json"
+  },
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/prop-types": "off"
+  }
+}
